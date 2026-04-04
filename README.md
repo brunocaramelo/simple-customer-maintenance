@@ -23,7 +23,7 @@ The application is separated into the following containers
 | Service | Image | Motivation
 | --- | --- | --- |
 | mysql | mariadb:10.11 | Main database |
-| redis | redis:alpine | Event queue storage |
+| redis | redis:alpine | Cache provider |
 | webserver | frankenphp | Web Server |
 
 ## Requirements
@@ -59,18 +59,18 @@ The application is separated into the following containers
     2 - docker compose up; (on first time to check possible malfunction), if ok run 2.1 (daemon)
         2.1 - docker compose up -d;
 
-    3 - docker compose exec webserver php /app/artisan migrate;
+    3 - docker compose exec webserver php artisan migrate;
 
     
 ## Post Installation
 
-After installation, the access address is:
+After installation, Access:
 
 - http://localhost:83/api/documentation
 
 ![Swagger para testes](docs/images/swagger-tool.png)
 
-Swaager documentation and Testing
+Swagger documentation and Testing
 
 ## Details
 
@@ -80,13 +80,13 @@ Swaager documentation and Testing
 
     - Unit Tests
 
-    - Docker and docker-compose
+    - Docker and Docker Compose
 
-    - Cach
+    - Cache (Redis)
 
     - Snowflake for Ids
 
-## Unit Tests
+## Test Suite
 
    Run
 
@@ -110,4 +110,4 @@ Swaager documentation and Testing
 
     - DTOs
 
-    - Anticorrupt Layer
+    - Anticorruption Layer

@@ -80,11 +80,7 @@ Swaager documentation and Testing
 
 ## Details
 
-    - Vue 3
-
-    - Laravel 11
-
-    - Sanctum
+    - Laravel 12
 
     - SOLID
 
@@ -99,3 +95,21 @@ Swaager documentation and Testing
     - docker compose exec webserver php artisan test;
 
 ![Bateria de testes](https://github.com/brunocaramelo/simple-customer-maintenance/docs/images/unit-tests.png)
+
+## Design Patherns
+
+    - DDD
+
+    - SOLID
+
+    - Observers
+
+    - Events
+
+    - SRP
+
+    - Actions (Commands)
+
+    - DTOs
+
+    - Anticorrupt Layer

@@ -82,7 +82,9 @@ Swaager documentation and Testing
 
     - Docker and docker-compose
 
-    - Cache
+    - Cach
+
+    - Snowflake for Ids
 
 ## Unit Tests
 

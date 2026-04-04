@@ -4,10 +4,14 @@ declare(strict_types=1);
 
 use App\Domains\Clientes\Models\Cliente;
 
+use Illuminate\Support\Facades\Cache;
+
 
 it('retorna lista vazia de clientes', function () {
 
     Cliente::truncate();
+
+    Cache::flush();
 
     $response = $this->getJson('/api/clientes?page=1');
 

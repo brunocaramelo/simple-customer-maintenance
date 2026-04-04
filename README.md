@@ -16,7 +16,7 @@ This application has the following specifications:
 | Redis | 5.0.0 |
 | Sqlite (Unit Tests) | 3.16.2 |
 | Laravel Framework | 12.0.* |
-| VueJS | 3.0.* |
+| Swagger | OAS 3.0 |
 
 The application is separated into the following containers
 

@@ -6,6 +6,9 @@ use App\Domains\Clientes\Models\Cliente;
 
 
 it('retorna lista vazia de clientes', function () {
+
+    Cliente::truncate();
+
     $response = $this->getJson('/api/clientes?page=1');
 
     $response->assertStatus(200);

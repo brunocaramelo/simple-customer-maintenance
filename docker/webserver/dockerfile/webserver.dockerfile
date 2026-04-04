@@ -1,19 +1,6 @@
-FROM composer:2.7.7 as builder
-
-COPY . /app
-
-RUN composer install \
-    --no-ansi \
-    --no-autoloader \
-    --no-interaction \
-    --no-scripts \
-    --prefer-dist
-
-RUN composer dump-autoload --optimize --classmap-authoritative
-
 FROM dunglas/frankenphp:php8.3
 
-COPY --from=builder /app /app
+COPY . /app
 
 ENV WEBSERVER_PORT=${WEBSERVER_PORT:-8003}
 

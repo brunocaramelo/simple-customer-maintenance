@@ -12,5 +12,6 @@ class ClienteData extends Data
         public string $nome,
         public string $email,
         public ?string $telefone,
+        public ?string $id,
     ) {}
 }

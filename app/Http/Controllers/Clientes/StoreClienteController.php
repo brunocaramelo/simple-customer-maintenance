@@ -10,6 +10,16 @@ use App\Domains\Clientes\Dto\ClienteData;
 use App\Domains\Clientes\Actions\StoreClientesAction;
 use Illuminate\Http\JsonResponse;
 
+/**
+ * @OA\Schema(
+ * schema="ClienteRequest",
+ * type="object",
+ * required={"nome", "email"},
+ * @OA\Property(property="nome", type="string", example="Zeca"),
+ * @OA\Property(property="email", type="string", format="email", example="teste@teste.com"),
+ * @OA\Property(property="telefone", type="string", nullable=true, example="5598785")
+ * )
+ */
 class StoreClienteController extends Controller
 {
     /**
@@ -19,22 +29,16 @@ class StoreClienteController extends Controller
      * tags={"Clientes"},
      * @OA\RequestBody(
      * required=true,
-     * description="Dados do cliente para criação",
      * @OA\JsonContent(ref="#/components/schemas/ClienteRequest")
      * ),
      * @OA\Response(
      * response=201,
-     * description="Cliente criado com sucesso",
+     * description="Sucesso",
      * @OA\JsonContent(
      * @OA\Property(property="id", type="integer", example=1),
-     * @OA\Property(property="nome", type="string", example="Zeca"),
-     * @OA\Property(property="email", type="string", example="teste@teste.com"),
-     * @OA\Property(property="telefone", type="string", example="5598785")
+     * @OA\Property(property="nome", type="string", example="Zeca")
+     * @OA\Property(property="email", type="string", example="email@tal.com")
      * )
-     * ),
-     * @OA\Response(
-     * response=422,
-     * description="Erro de validação"
      * )
      * )
      */

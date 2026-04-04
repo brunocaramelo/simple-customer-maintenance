@@ -1,0 +1,93 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Clientes API",
+        "description": "API de Gerenciamento da Clientes",
+        "contact": {
+            "email": "bsouza@fedora.org"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:83",
+            "description": "Servidor Local"
+        }
+    ],
+    "paths": {
+        "/api/clientes": {
+            "post": {
+                "tags": [
+                    "Clientes"
+                ],
+                "summary": "Cadastrar um novo cliente",
+                "operationId": "4d55d7921508eac8e64e5ada3ba5f8c5",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ClienteRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "example": 1
+                                        },
+                                        "nome": {
+                                            "type": "string",
+                                            "example": "Zeca"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ClienteRequest": {
+                "required": [
+                    "nome",
+                    "email"
+                ],
+                "properties": {
+                    "nome": {
+                        "type": "string",
+                        "example": "Zeca"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email",
+                        "example": "teste@teste.com"
+                    },
+                    "telefone": {
+                        "type": "string",
+                        "example": "5598785",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Clientes",
+            "description": "Clientes"
+        }
+    ]
+}

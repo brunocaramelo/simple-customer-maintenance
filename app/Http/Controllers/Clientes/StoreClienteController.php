@@ -37,7 +37,6 @@ class StoreClienteController extends Controller
      * @OA\JsonContent(
      * @OA\Property(property="id", type="integer", example=1),
      * @OA\Property(property="nome", type="string", example="Zeca")
-     * @OA\Property(property="email", type="string", example="email@tal.com")
      * )
      * )
      * )

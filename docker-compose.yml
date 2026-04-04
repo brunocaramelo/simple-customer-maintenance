@@ -1,7 +1,7 @@
 
 services:
   database:
-    image: mariadb:latest
+    image: mariadb:10.11
     container_name: mysql-customer-maintance
     volumes:
       - mysql-data:/var/lib/mysql:rw
@@ -26,6 +26,7 @@ services:
     restart: on-failure
     volumes:
      - .:/app:rw
+     - customer-vendor:/app/vendor
      - ./docker/webserver/startup/startup.sh:/app/startup.sh
     ports:
       - 83:83
@@ -43,5 +44,7 @@ volumes:
    mysql-data:
       driver: "local"
    redis-data:
+       driver: local
+   customer-vendor:
        driver: local
 

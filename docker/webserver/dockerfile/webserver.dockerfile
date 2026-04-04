@@ -2,8 +2,7 @@ FROM composer:2.7.7 as builder
 
 COPY . /app
 
-RUN composer install  \
-    --ignore-platform-reqs \
+RUN composer install \
     --no-ansi \
     --no-autoloader \
     --no-interaction \

@@ -6,7 +6,7 @@ namespace App\Http\Controllers\Clientes;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Clientes\StoreClienteRequest;
-use App\Domains\Clientes\DTOs\ClienteData;
+use App\Domains\Clientes\Dto\ClienteData;
 use App\Domains\Clientes\Actions\CreateClienteAction;
 use Illuminate\Http\JsonResponse;
 

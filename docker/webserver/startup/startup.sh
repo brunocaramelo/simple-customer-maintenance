@@ -11,6 +11,8 @@ for arg in "$@"; do
   esac
 done
 
+sleep 10 
+
 php artisan migrate
 
 php artisan optimize

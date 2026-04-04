@@ -28,7 +28,6 @@ services:
      - .:/app:rw
     #  - customer-vendor:/app/vendor:rw
      - ./docker/webserver/startup/startup.sh:/app/startup.sh
-     - ./docker/docker-compose-env/application.env.testing:/app/.env.testing
     ports:
       - 83:83
       - 8003:8003

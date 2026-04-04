@@ -15,6 +15,141 @@
         }
     ],
     "paths": {
+        "/api/clientes/{id}": {
+            "get": {
+                "tags": [
+                    "Clientes"
+                ],
+                "summary": "Ver um novo cliente",
+                "operationId": "5f03d7ebe7fe53864c6c9f8a8a1d697e",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do cliente que será atualizado",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "example": 1
+                                        },
+                                        "nome": {
+                                            "type": "string",
+                                            "example": "Zeca"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "Clientes"
+                ],
+                "summary": "Cadastrar um novo cliente",
+                "operationId": "2268cf0da18a8f5cfffd5a4e86e8c90b",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do cliente que será atualizado",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ClienteRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "example": 1
+                                        },
+                                        "nome": {
+                                            "type": "string",
+                                            "example": "Zeca"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Clientes"
+                ],
+                "summary": "Cadastrar um novo cliente",
+                "operationId": "3fa2e224a3463288f0ce9a0543210025",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do cliente que será atualizado",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "example": 1
+                                        },
+                                        "nome": {
+                                            "type": "string",
+                                            "example": "Zeca"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "/api/clientes": {
             "get": {
                 "tags": [
@@ -127,7 +262,56 @@
     },
     "components": {
         "schemas": {
+            "ClienteRequestItem": {
+                "type": "object"
+            },
+            "ClienteRequestDel": {
+                "required": [
+                    "nome",
+                    "email"
+                ],
+                "properties": {
+                    "nome": {
+                        "type": "string",
+                        "example": "Zeca"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email",
+                        "example": "teste@teste.com"
+                    },
+                    "telefone": {
+                        "type": "string",
+                        "example": "5598785",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
             "ClienteRequest": {
+                "required": [
+                    "nome",
+                    "email"
+                ],
+                "properties": {
+                    "nome": {
+                        "type": "string",
+                        "example": "Zeca"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email",
+                        "example": "teste@teste.com"
+                    },
+                    "telefone": {
+                        "type": "string",
+                        "example": "5598785",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "ClienteRequestUpd": {
                 "required": [
                     "nome",
                     "email"

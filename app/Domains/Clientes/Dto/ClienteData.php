@@ -9,8 +9,8 @@ use Spatie\LaravelData\Data;
 class ClienteData extends Data
 {
     public function __construct(
-        public string $nome,
-        public string $email,
+        public ?string $nome,
+        public ?string $email,
         public ?string $telefone,
         public ?string $id,
     ) {}

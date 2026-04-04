@@ -4,10 +4,14 @@ declare(strict_types=1);
 
 namespace App\Domains\Clientes\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
 use Illuminate\Database\Eloquent\Model;
 
 class Cliente extends Model
 {
+    use HasFactory;
+
     protected $fillable = [
         'nome',
         'email',

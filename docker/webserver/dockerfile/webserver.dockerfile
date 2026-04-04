@@ -11,7 +11,7 @@ RUN composer install \
 
 RUN composer dump-autoload --optimize --classmap-authoritative
 
-FROM dunglas/frankenphp:1.1.3-php8.3
+FROM dunglas/frankenphp:php8.3
 
 COPY --from=builder /app /app
 

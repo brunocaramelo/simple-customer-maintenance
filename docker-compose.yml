@@ -26,7 +26,7 @@ services:
     restart: on-failure
     volumes:
      - .:/app:rw
-     - customer-vendor:/app/vendor
+    #  - customer-vendor:/app/vendor:rw
      - ./docker/webserver/startup/startup.sh:/app/startup.sh
     ports:
       - 83:83
@@ -39,7 +39,7 @@ services:
     links:
       - database
       - cache
-    
+
 volumes:
    mysql-data:
       driver: "local"

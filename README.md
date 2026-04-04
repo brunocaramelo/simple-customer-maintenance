@@ -81,6 +81,8 @@ Swaager documentation and Testing
 
     - Docker and docker-compose
 
+    - Cache
+
 ## Unit Tests
 
    Run

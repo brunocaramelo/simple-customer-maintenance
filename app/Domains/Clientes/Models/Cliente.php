@@ -18,6 +18,10 @@ class Cliente extends Model
         'telefone'
     ];
 
+    public $casts = [
+        'id' => 'string',
+    ];
+
     public $incrementing = false;
 
     protected $keyType = 'string';

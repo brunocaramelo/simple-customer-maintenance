@@ -21,31 +21,30 @@ class ClienteObserver
     public function created(Cliente $cliente): void
     {
         cache()->tags(['clientes'])->flush();
-        cache()->tags(['clientes'])->flush();
     }
 
     public function updated(Cliente $cliente): void
     {
         cache()->tags(['clientes'])->flush();
-        cache()->tags(['clientes'])->forget($cliente->id);
+        cache()->tags(['clientes'])->forget('cliente_'.$cliente->id);
     }
 
     public function saving(Cliente $cliente): void
     {
         cache()->tags(['clientes'])->flush();
-        cache()->tags(['clientes'])->forget($cliente->id);
+        cache()->tags(['clientes'])->forget('cliente_'.$cliente->id);
     }
 
     public function saved(Cliente $cliente): void
     {
         cache()->tags(['clientes'])->flush();
-        cache()->tags(['clientes'])->forget($cliente->id);
+        cache()->tags(['clientes'])->forget('cliente_'.$cliente->id);
     }
 
     public function deleted(Cliente $cliente): void
     {
         cache()->tags(['clientes'])->flush();
-        cache()->tags(['clientes'])->forget($cliente->id);
+        cache()->tags(['clientes'])->forget('cliente_'.$cliente->id);
     }
 
 }

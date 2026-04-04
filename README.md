@@ -74,7 +74,7 @@ After installation, the access address is:
 
 - http://localhost:83/api/documentation
 
-![Bateria de testes](https://github.com/brunocaramelo/simple-customer-maintenance/docs/images/swagger-tool.png)
+![Bateria de testes](https://github.com/brunocaramelo/simple-customer-maintenance/tree/main/docs/images/swagger-tool.png)
 
 Swaager documentation and Testing
 
@@ -94,7 +94,7 @@ Swaager documentation and Testing
 
     - docker compose exec webserver php artisan test;
 
-![Bateria de testes](https://github.com/brunocaramelo/simple-customer-maintenance/docs/images/unit-tests.png)
+![Bateria de testes](https://github.com/brunocaramelo/simple-customer-maintenance/tree/main/docs/images/unit-tests.png)
 
 ## Design Patherns
 

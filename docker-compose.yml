@@ -1,0 +1,47 @@
+
+services:
+  database:
+    image: mariadb:latest
+    container_name: mysql-customer-maintance
+    volumes:
+      - mysql-data:/var/lib/mysql:rw
+    ports:
+      - "33061:3306"
+    env_file:
+      - docker/docker-compose-env/database.env
+  cache:
+    image: redis:alpine
+    container_name: redis-customer-maintance
+    command: ['redis-server', '--bind','0.0.0.0','--requirepass', 'testes','--port','6380']
+    volumes:
+      - redis-data:/data
+    ports:
+    - "6480:6380"
+
+  webserver:
+    build:
+      context: .
+      dockerfile: ./docker/webserver/dockerfile/webserver.dockerfile
+    container_name: webserver-customer-maintance
+    restart: on-failure
+    volumes:
+     - .:/app:rw
+     - ./docker/webserver/startup/startup.sh:/app/startup.sh
+    ports:
+      - 83:83
+      - 8003:8003
+    depends_on:
+      - database
+      - cache
+    env_file:
+      - docker/docker-compose-env/application.env
+    links:
+      - database
+      - cache
+    
+volumes:
+   mysql-data:
+      driver: "local"
+   redis-data:
+       driver: local
+

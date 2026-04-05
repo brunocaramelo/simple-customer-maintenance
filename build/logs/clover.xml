@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1775351739">
+  <project timestamp="1775351739" name="Clover Coverage">
+    <package name="App\Domains\Clientes\Actions">
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Actions/GetClientesAction.php">
+        <class name="App\Domains\Clientes\Actions\GetClientesAction" namespace="App\Domains\Clientes\Actions">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+        </class>
+        <line num="12" type="method" name="handle" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="14" type="stmt" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Actions/RemoveClientesAction.php">
+        <class name="App\Domains\Clientes\Actions\RemoveClientesAction" namespace="App\Domains\Clientes\Actions">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+        </class>
+        <line num="12" type="method" name="handle" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="22" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Actions/SearchClientesAction.php">
+        <class name="App\Domains\Clientes\Actions\SearchClientesAction" namespace="App\Domains\Clientes\Actions">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="12" elements="17" coveredelements="12"/>
+        </class>
+        <line num="13" type="method" name="handle" visibility="public" complexity="1" crap="1.02" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <metrics loc="34" ncloc="34" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="12" elements="17" coveredelements="12"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Actions/StoreClientesAction.php">
+        <class name="App\Domains\Clientes\Actions\StoreClientesAction" namespace="App\Domains\Clientes\Actions">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="12" type="method" name="handle" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="14" type="stmt" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <metrics loc="19" ncloc="19" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Actions/UpdateClientesAction.php">
+        <class name="App\Domains\Clientes\Actions\UpdateClientesAction" namespace="App\Domains\Clientes\Actions">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+        </class>
+        <line num="12" type="method" name="handle" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="22" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <package name="App\Domains\Clientes\Dto">
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Dto/ClienteData.php">
+        <class name="App\Domains\Clientes\Dto\ClienteData" namespace="App\Domains\Clientes\Dto">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="16" type="stmt" count="5"/>
+        <metrics loc="18" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="App\Domains\Clientes\Models">
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Models/Cliente.php">
+        <class name="App\Domains\Clientes\Models\Cliente" namespace="App\Domains\Clientes\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="30" ncloc="30" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Domains\Clientes\Observers">
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Observers/ClienteObserver.php">
+        <class name="App\Domains\Clientes\Observers\ClienteObserver" namespace="App\Domains\Clientes\Observers">
+          <metrics complexity="7" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="18" coveredelements="18"/>
+        </class>
+        <line num="13" type="method" name="creating" visibility="public" complexity="2" crap="2" count="5"/>
+        <line num="15" type="stmt" count="5"/>
+        <line num="16" type="stmt" count="5"/>
+        <line num="17" type="stmt" count="5"/>
+        <line num="21" type="method" name="created" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="26" type="method" name="updated" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="32" type="method" name="saving" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="34" type="stmt" count="5"/>
+        <line num="35" type="stmt" count="5"/>
+        <line num="38" type="method" name="saved" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="40" type="stmt" count="5"/>
+        <line num="41" type="stmt" count="5"/>
+        <line num="44" type="method" name="deleted" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <metrics loc="51" ncloc="51" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="18" coveredelements="18"/>
+      </file>
+    </package>
+    <package name="App\Domains\Clientes\Resources">
+      <file name="/srv/others/simple-customer-maintenance/app/Domains/Clientes/Resources/ClienteResource.php">
+        <class name="App\Domains\Clientes\Resources\ClienteResource" namespace="App\Domains\Clientes\Resources">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+        </class>
+        <line num="10" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="19" ncloc="19" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers\Clientes">
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Controllers/Clientes/GetClienteController.php">
+        <class name="App\Http\Controllers\Clientes\GetClienteController" namespace="App\Http\Controllers\Clientes">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="43" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <metrics loc="53" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Controllers/Clientes/ListClienteController.php">
+        <class name="App\Http\Controllers\Clientes\ListClienteController" namespace="App\Http\Controllers\Clientes">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="57" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <metrics loc="67" ncloc="26" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Controllers/Clientes/RemoveClienteController.php">
+        <class name="App\Http\Controllers\Clientes\RemoveClienteController" namespace="App\Http\Controllers\Clientes">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="47" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <metrics loc="57" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Controllers/Clientes/StoreClienteController.php">
+        <class name="App\Http\Controllers\Clientes\StoreClienteController" namespace="App\Http\Controllers\Clientes">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="44" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <metrics loc="54" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Controllers/Clientes/UpdateClienteController.php">
+        <class name="App\Http\Controllers\Clientes\UpdateClienteController" namespace="App\Http\Controllers\Clientes">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="51" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <metrics loc="61" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers">
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Controllers/Controller.php">
+        <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="25" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Requests\Clientes">
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Requests/Clientes/FindClienteRequest.php">
+        <class name="App\Http\Requests\Clientes\FindClienteRequest" namespace="App\Http\Requests\Clientes">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="13" coveredelements="13"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="16" type="stmt" count="3"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="3"/>
+        <line num="23" type="stmt" count="3"/>
+        <line num="24" type="stmt" count="3"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="3"/>
+        <line num="29" type="method" name="prepareForValidation" visibility="protected" complexity="1" crap="1" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="32" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <metrics loc="37" ncloc="37" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="13" coveredelements="13"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Requests/Clientes/SearchClienteRequest.php">
+        <class name="App\Http\Requests\Clientes\SearchClienteRequest" namespace="App\Http\Requests\Clientes">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="21" coveredelements="21"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <metrics loc="41" ncloc="41" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="21" coveredelements="21"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Requests/Clientes/StoreClienteRequest.php">
+        <class name="App\Http\Requests\Clientes\StoreClienteRequest" namespace="App\Http\Requests\Clientes">
+          <metrics complexity="4" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="26" elements="34" coveredelements="29"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="42" type="method" name="messages" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="54" type="method" name="failedValidation" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <metrics loc="62" ncloc="62" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="26" elements="34" coveredelements="29"/>
+      </file>
+      <file name="/srv/others/simple-customer-maintenance/app/Http/Requests/Clientes/UpdateClienteRequest.php">
+        <class name="App\Http\Requests\Clientes\UpdateClienteRequest" namespace="App\Http\Requests\Clientes">
+          <metrics complexity="5" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="33" elements="42" coveredelements="37"/>
+        </class>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="47" type="method" name="messages" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="59" type="method" name="failedValidation" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="67" type="method" name="prepareForValidation" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <metrics loc="74" ncloc="74" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="37" coveredstatements="33" elements="42" coveredelements="37"/>
+      </file>
+    </package>
+    <package name="App\Models">
+      <file name="/srv/others/simple-customer-maintenance/app/Models/User.php">
+        <class name="App\Models\User" namespace="App\Models">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="42" type="method" name="casts" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <metrics loc="50" ncloc="33" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="/srv/others/simple-customer-maintenance/app/Providers/AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="15" type="method" name="register" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="18" type="stmt" count="6"/>
+        <line num="23" type="method" name="boot" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="25" type="stmt" count="6"/>
+        <metrics loc="28" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <metrics files="21" loc="847" ncloc="640" classes="19" methods="35" coveredmethods="31" conditionals="0" coveredconditionals="0" statements="162" coveredstatements="146" elements="197" coveredelements="177"/>
+  </project>
+</coverage>

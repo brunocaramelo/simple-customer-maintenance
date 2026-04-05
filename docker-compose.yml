@@ -43,6 +43,7 @@ services:
     image: laravelsail/php83-composer:latest
     container_name: composer-customer-maintance
     working_dir: /var/www/html
+    profiles: ["compiler"]
     volumes:
       - .:/var/www/html
     user: "${UID:-1000}:${GID:-1000}"

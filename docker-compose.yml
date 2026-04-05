@@ -39,12 +39,18 @@ services:
     links:
       - database
       - cache
+  compiler:
+    image: laravelsail/php83-composer:latest
+    container_name: composer-customer-maintance
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    user: "${UID:-1000}:${GID:-1000}"
+    entrypoint: sh
+    command: -c "composer install --no-ansi --no-autoloader --no-interaction --no-scripts --prefer-dist && composer dump-autoload --optimize --classmap-authoritative"
 
 volumes:
    mysql-data:
       driver: "local"
    redis-data:
        driver: local
-   customer-vendor:
-       driver: local
-

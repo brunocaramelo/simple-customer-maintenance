@@ -61,7 +61,7 @@ The application is separated into the following containers
 
 3 - Enter the application's home directory and execute the following commands:
     
-    1 - docker run --rm     -u "$(id -u):$(id -g)"     -v "$(pwd):/var/www/html"     -w /var/www/html     laravelsail/php83-composer:latest  composer install --no-ansi --no-autoloader --no-interaction --no-scripts --prefer-dist ; composer dump-autoload --optimize --classmap-authoritative
+    1 - docker compose up compiler
     
     2 - docker compose up; (on first time to check possible malfunction), if ok run 2.1 (daemon)
         2.1 - docker compose up -d;
@@ -69,6 +69,14 @@ The application is separated into the following containers
     3 - docker compose exec webserver php artisan migrate;
 
     
+## Commands Post Installation
+
+    - docker compose exec webserver php artisan migrate;
+
+    - docker compose exec webserver php artisan test;
+
+    - docker compose run --rm --entrypoint "" compiler sh -c "composer install && composer dump-autoload";
+
 ## Post Installation
 
 After installation, Access:
@@ -83,9 +91,7 @@ Swagger documentation and Testing
 
     - Laravel 12
 
-    - SOLID
-
-    - Unit Tests
+    - Unit Tests (Pest)
 
     - Docker and Docker Compose
 

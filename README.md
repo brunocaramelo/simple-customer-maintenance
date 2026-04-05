@@ -15,7 +15,7 @@ This application has the following specifications:
 
 | Tool | Version |
 | --- | --- |
-| Docker | 24.0.7, |
+| Docker | 24.0.7 |
 | Docker Compose | 1.29.2 |
 | PHP | 8.3.9 |
 | WEBSERVER (FRANKENPHP) | 8.3.9 |
@@ -92,6 +92,8 @@ Swagger documentation and Testing
     - Cache (Redis)
 
     - Snowflake for Ids
+
+    - Swagger OpenApi
 
 ## Test Suite
 

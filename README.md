@@ -1,6 +1,12 @@
 
 # SIMPLE CUSTOMER APPLICATION
 
+<!-- ## Quality Gate
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e7badc8e14ae4ea09853cf81d1d11d76)](https://app.codacy.com/gh/brunocaramelo/simple-customer-maintenance/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/e7badc8e14ae4ea09853cf81d1d11d76)](https://app.codacy.com/gh/brunocaramelo/simple-customer-maintenance/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage) -->
 
 ## Technical specifications
 
